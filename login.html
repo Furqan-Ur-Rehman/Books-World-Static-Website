@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="user">
+            <h2 id="login1" class="active"><a href="#" class="active font-weight-bold text-light">Login</a></h2>
+            <h2 id="Reg"><a href="Registration.html" class="font-weight-bold text-light">Registration</a></h2>
+            
+        </div>
+        
+        <form class="change" onsubmit="return login()">
+                <div class="form-group">
+                    <label for="user" class="text-warning font-weight-bold">Email Address: </label><br>
+                    <i class="fas fa-user text-light"></i> <input type="text" class="form-control" name="user_data" id="user" size="30" placeholder="Enter your Email Address" required>
+                    <span id="Email" style="color:red; font-weight:bold; "></span>
+                    <div class="border1"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Userpassword" class="text-warning font-weight-bold">User Password: </label><br>
+                    <i class="fas fa-lock text-light"></i> <input type="password" class="form-control" value="" name="user_data" id="Userpassword" size="30" placeholder="Enter your User Password" required>
+                    <span id="upass" style="color: red; font-weight: bold;"></span>
+                    <div class="border2"></div>
+                </div>
+
+                <div class="forgot" ><a href="#" class="font-weight-bold text-warning" >Forgot Password?</a></div>
+                
+                <input type="submit"  id="lbtn" value="LOGIN">
+                <a href="login.html"><input type="submit" value="REGISTRATION"id="Rbtn" disabled></input></a> 
+                
+                <div class="notremember text-warning font-weight-bold">Not a remember?<a href="Registration.html" class="font-weight-bold text-light">New Registration Now..</a></div>
+            
+                
+            
+        </form>
+        
+        
+    </div>
+   
+    
+    <script src="bootstrap-4.6.0-dist/js/jquery-3.5.1.slim.min.js"></script>
+      
+       
+    <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

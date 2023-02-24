@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+    
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: linear-gradient(23.7deg,  rgb(127, 166, 182) 50.5%, rgb(187, 188, 199) 50% );  */
+    background-image: url("books\ wallpaper\ sets.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/* Main Div Start Here */
+
+div.container{
+    /* background-image: linear-gradient(23.7deg, rgb(187,188,199) 50% ,rgb(127, 166, 182) 50% ); */
+    background-color: rgba(82, 123, 206, 0.212);
+    width: 370px;
+    height: 580px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 18px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 7px 7px 10px  gray;
+
+}
+
+div .user{
+        display: flex;
+
+    }       
+    
+    .user{
+        text-decoration: none;
+
+    }
+          /* login button start here */
+
+    #login1 {
+        color: white;
+        /* border: 3px solid white; */
+        border-top-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        width: 100px;
+        height: 20px;
+        font-size: 24px;
+        padding: 10px;
+        margin-left: 5px;
+        /* text-align: center; */
+        cursor: pointer;
+        margin-top: -15px;
+        
+    }
+
+    #login1 a{
+        text-decoration: none;
+        
+    }
+    
+    
+    .user :hover{
+        /* background-color: rgb(187,188,199); */
+        color: white;
+        transition: 0.6s all;
+        /* background-image: linear-gradient(360deg, skyblue 30%, rgb(187,188,199) 70.55%); */
+        font-weight:900px;
+
+    }
+    
+    /* Login Button End Here */
+
+
+
+
+
+    /* Registration Button Start Here */
+
+#Reg{
+    color: white;
+    /* border: 3px solid white; */
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 130px;
+    height: 25px;
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -15px;
+}
+
+#Reg a{
+    text-decoration: none;
+    
+}
+
+.active{
+    color:white;
+    
+}
+
+
+
+    /* Registration Button End Here */
+
+
+
+
+
+    /* Form Div start here */
+.form-group{
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 15px;
+    /* padding-top: 40px; */
+    /* height: 100px; */
+}
+    /* Form Div End here */
+
+
+
+
+    /* Form Start here */
+
+
+
+    /* 1) First Name  Start Here */
+
+    .form-control {
+        background-color: rgba(0,0,0,15);
+        height: 30px;
+        width:280px;
+        margin-left: 10px;
+        /* color: white; */
+        font-size: 18px;
+        margin-top: -30px;
+        border-radius: 18px;
+    }
+
+    .border1{
+        margin-top: 15px;
+        /* margin-bottom: 15px; */
+        border-bottom: 3px solid rgba(252, 251, 250);
+    }
+
+
+
+        /* 2) Last Name Start Here */
+
+    .form-control{
+        background-color: rgba(0, 0, 0, 15);
+        height: 30px;
+        width:280px;
+        margin-left: 10px;
+        color:white;
+        font-size: 18px;
+        margin-top: -40px;
+        border-radius: 18px;
+    }
+    
+    .border2{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-bottom: 3px solid rgba(252, 251, 250);
+    }
+
+
+
+
+
+        /* 3) Email Address */
+
+    .form-control{
+        background-color: rgba(0,0,0,15);
+        height: 30px;
+        width: 280px;
+        margin-left: 10px;
+        color: white;
+        font-size: 18px;
+        margin-top: -40px;        
+        border-radius: 18px;
+    }
+
+
+     .border3{
+        margin-top: 14px;
+        margin-bottom: 15px;
+        border-bottom: 3px solid rgba(252, 251, 250);
+    } 
+        
+        
+        
+        
+        /* 4) Enter Password */
+
+
+    .form-control{
+        background-color:rgba(253, 253, 253, 0);
+        height: 30px;
+        width: 280px;
+        margin-left: 18px;
+        color: white;
+        font-size: 18px;
+        margin-top: -30px;
+        border-radius: 10px;
+    }
+    
+    .border4{
+        margin-top: 14px;
+        margin-bottom: 15px;
+        border-bottom: 3px solid rgba(252, 251, 250);
+    } 
+
+   
+
+    /* 5) Forgot Password */
+
+    .forgot{
+        color: cornsilk;
+        font-size: 15px;
+        margin-top: 2%;
+    }
+    
+    .forgot a{
+        text-decoration: none;
+    }
+
+
+
+
+    /* 6) Login Button */
+
+    #Lbtn{
+        /* background-color: rgba(0,0,0,0.20); */
+        height: 30px;
+        width:80px;
+        /* color: white; */
+        font-size: 18px;
+        margin-left: 20px;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: 15px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 7px;
+        color: rgb(252, 206, 5);
+    }
+    
+
+        /* 7) Registration Button */
+
+    #btn{
+        background-color: rgba(172, 170, 170, 0.699);
+        height: 30px;
+        color: rgb(252, 206, 5);
+        /* font-size: 25px; */
+        margin-left: 20px;
+        width: 170px;
+        /* padding: 10px; */
+        cursor: pointer;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius:7px;
+    }
+
+        /* 8) Not remember */
+
+    .notremember{
+        color: black;
+        font-size: 15px;
+        margin-top: 5px;
+        /* margin-left: 7px; */
+        
+    }
+
+    .notremember a{
+        text-decoration: none;
+        color: blue; 
+        margin-left: 6px;
+        font-size: 15px;
+    }
+
+
+        /* End */
+
+</style>
+    <script src="Registration.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="user">
+            <h2 id="login1" class="active"><a href="login.html" class="font-weight-bold text-light">Login</a></h2>
+            <h2 id="Reg"><a href="Registration.html" class="active font-weight-bold text-light">Registration</a></h2>
+            
+        </div>
+        
+        <form class="change" onsubmit="return reg()">
+                <div class="form-group">
+                    <label for="user" class="text-warning">First Name:</label><br>
+                    <i class="fas fa-user-tie text-light"></i><input type="text" class="form-control" name="user_name" id="user" size="30" placeholder="Enter your First Name" required>
+                    <div class="border1"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="UserLname" class="text-warning">Last Name:</label><br>
+                    <i class="fas fa-user-tie text-light"></i><input type="text" class="form-control" name="user_data" id="UserLname" size="30" placeholder="Enter your Last Name" required>
+                    <div class="border2"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Useremail" class="text-warning">Email Address:</label><br>
+                    <i class="fas fa-envelope text-light"></i><input type="text" class="form-control email" id="Useremail" name="email_data" size="30" placeholder="Enter your Email Address" required>
+                    <div class="border3"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Userpassword" class="text-warning">Enter Password:</label><br>
+                    <i class="fas fa-lock text-light"></i><input type="password" class="form-control" id="Userpassword" name="" size="30" placeholder="Enter your New Password" required>
+                    <div class="border4"></div>
+                </div>
+
+                <div class="forgot"><a href="#" class="text-warning">Forgot Password?</a></div>
+                
+                <input type="submit" id="Lbtn" value="LOGIN" disabled></input>
+                <input type="submit" value="REGISTRATION" id="btn"></input>
+                
+                <div class="notremember text-warning font-weight-bold">Not a remember?<a href="Registration.html" class="text-light font-weight-bold">New Registration Now..</a></div>
+            
+                
+            
+        </form>
+        
+        
+    </div>
+
+
+
+
+</body>
+</html>
